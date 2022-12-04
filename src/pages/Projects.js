@@ -9,12 +9,14 @@ const Projects = () => {
                 <h2 className="title-1">Projects</h2>
                 <ul className="projects">
 
-                    {projects.map((projects, index) => {
+                    {projects.map((project, index) => {
                         return (
                             <Project
                                 key={index}
-                                title={projects.title}
-                                img={projects.img} />
+                                title={project.title}
+                                img={project.img}
+                                index={index}
+                            />
                         )
                     })}
                 </ul>
