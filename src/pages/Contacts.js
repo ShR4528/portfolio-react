@@ -1,22 +1,22 @@
 const Contacts = () => {
     return (
 
-        <main className="section">
-            <div className="container">
-                <h1 className="title-1">Contacts</h1>
+        <main className='section'>
+            <div className='container'>
+                <h1 className='title-1'>Contacts</h1>
 
-                <ul className="content-list">
-                    <li className="content-list__item">
-                        <h2 className="title-2">Location</h2>
+                <ul className='content-list'>
+                    <li className='content-list__item'>
+                        <h2 className='title-2'>Location</h2>
                         <p><strong>Tallin, Estonia</strong></p>
                     </li>
-                    <li className="content-list__item">
-                        <h2 className="title-2">Mobile</h2>
-                        <p><a href="tel:+372 588 785 09">+372 588 785 09</a></p>
+                    <li className='content-list__item'>
+                        <h2 className='title-2'>Mobile</h2>
+                        <p><a href='tel:+372 588 785 09'>+372 588 785 09</a></p>
                     </li>
-                    <li className="content-list__item">
-                        <h2 className="title-2">Email</h2>
-                        <p><a href="mailto:Shr4528@gmail.com">Shr4528@gmail.com</a></p>
+                    <li className='content-list__item'>
+                        <h2 className='title-2'>Email</h2>
+                        <p><a href='mailto:Shr4528@gmail.com'>Shr4528@gmail.com</a></p>
                     </li>
                 </ul>
 
